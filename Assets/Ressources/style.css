@@ -21,6 +21,11 @@ header {
     color: #ffffff;
 }
 
+#profilPicture {
+    border-radius: 50%;
+    border: #5663CC solid 3px;
+}
+
 aside {
     background-color: #0f1544a2;
     color: #ffffff;
