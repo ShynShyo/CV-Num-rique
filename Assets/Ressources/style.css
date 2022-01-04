@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Kanit-Regular";
+    src: url(../Ressources/Kanit/Kanit-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Kanit-Medium";
+    src: url(../Ressources/Kanit/Kanit-Medium.ttf);
+}
+
+body {
+    background-image: url("../../Assets/Ressources/gradient-purple-hexagonal-background/5335415.jpg");
+    background-size: cover;
+    color: #ffffff;
+    font-family: "Kanit-Regular";
+}
+
+header {
+    background-color: #0f1544b7;
+    margin: 1%;
+    color: #ffffff;
+}
+
+aside {
+    background-color: #0f1544a2;
+    color: #ffffff;
+}
+
+h3 {
+    color: #9A1313;
+}
+
+main {
+    color: #ffffff;
+}
