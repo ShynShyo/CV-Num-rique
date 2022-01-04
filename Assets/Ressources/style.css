@@ -13,36 +13,73 @@ body {
     background-size: cover;
     color: #ffffff;
     font-family: "Kanit-Regular";
+
 }
 
 header {
     background-color: #0f1544b7;
     margin: 1%;
     color: #ffffff;
+    font-size: 1.8rem;
+    font-family: "Kanit-Regular";
+}
+
+#row1 {
+    margin-top: 3vh;
+}
+
+#title {
+    margin-top: 5vh;
+}
+
+#contact {
+    margin-top: 5vh;
+}
+
+header h1 {
+    font-family: "Kanit-Medium";
+    font-size: 3.2rem;
+}
+
+header h2 {
+    font-size: 2.3rem;
 }
 
 #profilPicture {
     border-radius: 50%;
     border: #5663CC solid 3px;
+    width: 75vh;
+    height: 25vh;
 }
 
-/* #printIcon {
-    width: 10vh;
-    height: 20vh;
+#printIcon {
+    width: 7vh;
+    height: 7vh;
+    margin: 2vh;
 }
 
 #facebookIcon {
-    width: 5vh;
-    height: 5vh;
-} */
+    width: 7vh;
+    height: 7vh;
+    margin: 2vh;
+}
+
+#linkedinIcon {
+    width: 7vh;
+    height: 7vh;
+    margin: 2vh;
+}
 
 aside {
     background-color: #0f1544a2;
     color: #ffffff;
+    font-family: "Kanit-Regular";
+    font-size: 1.8rem;
 }
 
 h3 {
     color: #9A1313;
+    font-family: "Kanit-Medium";
 }
 
 main {
