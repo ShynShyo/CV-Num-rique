@@ -15,6 +15,7 @@ body {
     font-family: "Kanit-Regular";
 
 }
+/*------------------------------------------Header-----------------------------------------------*/
 
 header {
     background-color: #0f1544b7;
@@ -33,23 +34,33 @@ header {
 }
 
 #contact {
-    margin-top: 5vh;
+    margin-top: 8vh;
+}
+
+#contact i {
+    margin-right: 2vh;
+    color: #9A1313;
 }
 
 header h1 {
     font-family: "Kanit-Medium";
-    font-size: 3.2rem;
+    font-size: 4rem;
+    margin-left: 10vh;
+    margin-top: 4vh;
+    margin-bottom: 0;
 }
 
 header h2 {
-    font-size: 2.3rem;
+    font-size: 3rem;
+    margin-left: 10vh;
 }
 
 #profilPicture {
     border-radius: 50%;
     border: #5663CC solid 3px;
-    width: 75vh;
-    height: 25vh;
+    width: 85vh;
+    height: 35vh;
+    grid-row: 1/2;
 }
 
 #printIcon {
@@ -70,6 +81,13 @@ header h2 {
     margin: 2vh;
 }
 
+
+
+/*---------------------------------------------Main----------------------------------------------------*/
+
+/*---------------------------------------------Left Aside----------------------------------------------*/
+
+
 aside {
     background-color: #0f1544a2;
     color: #ffffff;
@@ -80,8 +98,96 @@ aside {
 h3 {
     color: #9A1313;
     font-family: "Kanit-Medium";
+    font-size: 2.8rem !important;
 }
 
 main {
     color: #ffffff;
+}
+
+#about {
+    margin-top: 10vh;
+    margin-bottom: 4vh;
+    font-size: 2.3rem;
+}
+
+#skills {
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+}
+
+#html5 {
+    width: 7vh;
+    height: 7vh;
+}
+
+#cssIcon {
+    width: 7vh;
+    height: 7vh;
+}
+
+#bootstrapIcon {
+    width: 7.3vh;
+    height: 7vh;
+}
+
+.progress {
+    width: 40vh;
+    margin-bottom: 7vh;
+    border: #9A1313 solid 3px;
+    background-color: transparent !important;
+}
+
+.progress-bar {
+background-color: #9A1313 !important;
+}
+
+#socialSkills {
+    margin-bottom: 4vh;
+}
+
+#talkingIcon {
+    width: 7vh;
+    height: 7vh;
+}
+
+#computerIcon {
+    width: 7vh;
+    height: 7vh;
+}
+
+#curiosityIcon {
+    width: 7vh;
+    height: 7vh;
+}
+
+/*----------------------------------------------Right Aside----------------------------------------------*/
+
+#Experience {
+    margin-top: 10vh;
+    margin-bottom: 4vh;
+}
+
+#Experience p {
+    margin-bottom: 4vh;
+}
+
+#purpleArrow {
+    width: 7.3vh;
+    height: 6.3vh;
+}
+
+#formations {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#Loisirs {
+    margin-bottom: 5vh;
+}
+
+#Loisirs img {
+    width: 9vh;
+    height: 9vh;
+    margin-left: 4vh;
 }

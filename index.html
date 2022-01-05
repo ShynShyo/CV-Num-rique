@@ -18,13 +18,13 @@
         <div class="row">
             <div class="col">
                 <div class="row" id="row1">
-                    <div class="col">
+                    <div class="col-3">
                         <div>
-                            <img id="profilPicture" class="img-fluid w-50"
+                            <img id="profilPicture" class="img-fluid"
                                 src="Assets\270243224_489353289204488_8814682321369125685_n.jpg" alt="photo">
                         </div>
                     </div>
-                    <div class="col" id="title">
+                    <div class="col-5" id="title">
                         <div>
                             <h1>Clovis Blin</h1>
                         </div>
@@ -32,7 +32,7 @@
                             <h2>Web-Designer</h2>
                         </div>
                     </div>
-                    <div class="col" id="contact">
+                    <div class="col-4" id="contact">
                         <div><i class="fas fa-phone-alt"></i>0627705525</div>
                         <div><i class="fas fa-at"></i>Clovis.1993@hotmail.fr</div>
                         <div><i class="fas fa-map-marker-alt"></i> 7 rue Pierre l'Hermite Amiens</div>
@@ -71,38 +71,57 @@
                                 </div>
                             </div>
                             <div>
-                                <div>
-                                    <h3>Compétences</h3>
+                                <div id="skills">
+                                    <h3>Compétences Techniques</h3>
                                 </div>
                                 <div>
-                                    <div>
-                                        <img class="img-fluid w-25" id="html5"
+                                    <div class="d-flex align-middle">
+                                        <img class="img-fluid" id="html5"
                                             src="Assets\Ressources\HTML5_Badge_512-removebg-preview.png" alt="html5">
-                                    </div>
-
-                                    <div class="progress" style="height: 30px;">
-                                        <div class="progress-bar float-start" role="progressbar" style="width: 75%;"
-                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress" style="height: 30px;">
+                                            <div class="progress-bar float-end" role="progressbar" style="width: 75%;"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div>
-                                    <div>
-                                        <img class="img-fluid w-25" src="Assets\Ressources\CSS3_logo.svg.png"
-                                            alt="css3">
-                                    </div>
+                                <div class="d-flex">
+                                    <img class="img-fluid" id="cssIcon" src="Assets\Ressources\CSS3_logo.svg.png"
+                                        alt="css3">
                                     <div class="progress" style="height: 30px;">
                                         <div class="progress-bar float-start" role="progressbar" style="width: 50%;"
                                             aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div><img class="img-fluid w-25" src="Assets\Ressources\Bootstrap_logo.svg.png"
-                                            alt="bootstrap"></div>
+                                <div class="d-flex">
+                                    <img class="img-fluid" id="bootstrapIcon"
+                                        src="Assets\Ressources\Bootstrap_logo.svg.png" alt="bootstrap">
+
                                     <div class="progress" style="height: 30px;">
                                         <div class="progress-bar float-start" role="progressbar" style="width: 50%;"
                                             aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div id="socialSkills">
+                                    <h3>Compétences Sociales</h3>
+                                </div>
+                                <div class="d-flex">
+                                    <img class="img-fluid" id="talkingIcon" src="Assets\Ressources\Talking.png"
+                                        alt="Talking">
+                                    <p>Bonne capacité d'élocution</p>
+                                </div>
+                                <div class="d-flex">
+                                    <img class="img-fluid" id="computerIcon" src="Assets\Ressources\Computer.png"
+                                        alt="Computer">
+                                    <p>Bonne capacité d'adaptation sur Logiciels</p>
+                                </div>
+                                <div class="d-flex">
+                                    <img class="img-fluid" id="curiosityIcon" src="Assets\Ressources\Curiosité.png"
+                                        alt="Curiosité">
+                                    <p>Constante curiosité et envie d'apprendre</p>
                                 </div>
                             </div>
                         </div>
@@ -117,50 +136,54 @@
                                 <div id="Experience">
                                     <h3>Expériences</h3>
                                 </div>
-                                <div><img class="img-fluid w-25"
+                                <div class="d-flex"><img class="img-fluid" id="purpleArrow"
                                         src="Assets\Ressources\Arrow_Icon-removebg-preview purple test.png"
                                         alt="arrowPurple">
                                     <p>Stage chez Vitalitea (Marketing/CM)</p>
                                 </div>
-                                <div><img class="img-fluid w-25"
+                                <div class="d-flex"><img class="img-fluid" id="purpleArrow"
                                         src="Assets\Ressources\Arrow_Icon-removebg-preview purple test.png"
                                         alt="arrowPurple">
                                     <p>Streaming sur Twitch (2 ans)</p>
                                 </div>
-                                <div><img class="img-fluid w-25"
+                                <div class="d-flex"><img class="img-fluid" id="purpleArrow"
                                         src="Assets\Ressources\Arrow_Icon-removebg-preview purple test.png"
                                         alt="arrowPurple">
                                     <p>Expérience Numéro 3 lol</p>
                                 </div>
                             </div>
-                                    <div id="formations">
-                                        <div><h3>Formations</h3></div>
+                            <div id="formations">
+                                <div>
+                                    <h3>Formations</h3>
+                                </div>
 
-                                        <div><img class="img-fluid w-25"
-                                                src="Assets\Ressources\Arrow_Icon-removebg-preview purple test.png"
-                                                alt="arrowPurple">
-                                            <p>Concepteur designer UI (en cours)</p>
-                                        </div>
+                                <div class="d-flex"><img class="img-fluid" id="purpleArrow"
+                                        src="Assets\Ressources\Arrow_Icon-removebg-preview purple test.png"
+                                        alt="arrowPurple">
+                                    <p>Concepteur designer UI (en cours)</p>
+                                </div>
 
-                                        <div><img class="img-fluid w-25"
-                                                src="Assets\Ressources\Arrow_Icon-removebg-preview purple test.png"
-                                                alt="arrowPurple">
-                                            <p>Licence Arts du Spectacle (non acquis)</p>
-                                        </div>
-                                        <div><img class="img-fluid w-25"
-                                                src="Assets\Ressources\Arrow_Icon-removebg-preview purple test.png"
-                                                alt="arrowPurple">
-                                            <p>Baccalauréat Professionnel SEN (acquis)</p>
-                                        </div>
-                                    </div>
+                                <div class="d-flex"><img class="img-fluid" id="purpleArrow"
+                                        src="Assets\Ressources\Arrow_Icon-removebg-preview purple test.png"
+                                        alt="arrowPurple">
+                                    <p>Licence Arts du Spectacle (non acquis)</p>
+                                </div>
+                                <div class="d-flex"><img class="img-fluid" id="purpleArrow"
+                                        src="Assets\Ressources\Arrow_Icon-removebg-preview purple test.png"
+                                        alt="arrowPurple">
+                                    <p>Baccalauréat Professionnel SEN (acquis)</p>
+                                </div>
+                            </div>
 
                             <div id="Loisirs">
-                                <div><h3>Loisirs</h3></div>
+                                <div>
+                                    <h3>Loisirs</h3>
+                                </div>
                                 <div ">
-                                    <img class="img-fluid w-25" src="Assets\Ressources\Gamepad White.png" alt="Gamepad">
-                                    <img class="img-fluid w-25" src="Assets\Ressources\Writing White.png" alt="Writing">
-                                    <img class="img-fluid w-25" src="Assets\Ressources\Micro White.png" alt="microphone">
-                                    <img class="img-fluid w-25" src="Assets\Ressources\Music White.png" alt="Music">
+                                    <img class=" img-fluid" src="Assets\Ressources\Gamepad White.png" alt="Gamepad">
+                                    <img class="img-fluid" src="Assets\Ressources\Writing White.png" alt="Writing">
+                                    <img class="img-fluid" src="Assets\Ressources\Micro White.png" alt="microphone">
+                                    <img class="img-fluid" src="Assets\Ressources\Music White.png" alt="Music">
                                 </div>
                             </div>
                         </div>
