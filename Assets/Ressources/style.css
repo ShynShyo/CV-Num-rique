@@ -60,9 +60,8 @@ header h2 {
 #profilPicture {
     border-radius: 50%;
     border: #5663CC solid 5px;
-    width: 85vh;
-    height: 35vh;
-    grid-row: 1/2;
+    /* width: 85vh;
+    height: 35vh; */
 }
 
 #printIcon {
@@ -143,7 +142,9 @@ main {
     margin-bottom: 7vh;
     border: #9A1313 solid 3px;
     background-color: transparent !important;
+    margin-top: 2vh;
 }
+
 
 .progress-bar {
 background-color: #9A1313 !important;
@@ -157,18 +158,21 @@ background-color: #9A1313 !important;
     width: 7vh;
     height: 7vh;
     margin-right: 3vh;
+    margin-top: -2vh;
 }
 
 #computerIcon {
     width: 7vh;
     height: 7vh;
     margin-right: 3vh;
+    margin-top: -2vh;
 }
 
 #curiosityIcon {
     width: 7vh;
     height: 7vh;
     margin-right: 3vh;
+    margin-top: -2vh;
 }
 
 /*----------------------------------------------Right Aside----------------------------------------------*/
@@ -180,6 +184,7 @@ background-color: #9A1313 !important;
 
  p {
     margin-bottom: 7vh !important;
+    
 }
 
 #purpleArrow {
@@ -189,13 +194,13 @@ background-color: #9A1313 !important;
 
 #formations {
     margin-top: 8vh;
-    margin-bottom: 10vh !important;
+    margin-bottom: 5vh !important;
 
 }
 
 #Loisirs {
     margin-bottom: 6vh !important;
-    margin-top: -8vh;
+    margin-top: 3vh;
 }
 
 #Loisirs img {
