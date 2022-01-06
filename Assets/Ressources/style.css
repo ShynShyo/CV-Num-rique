@@ -46,14 +46,14 @@ header {
 
 header h1 {
     font-family: "Kanit-Medium";
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-left: 10vh;
     margin-top: 4vh;
     margin-bottom: 0;
 }
 
 header h2 {
-    font-size: 3rem;
+    font-size: 2.6rem;
     margin-left: 10vh;
 }
 
@@ -199,7 +199,7 @@ background-color: #9A1313 !important;
 }
 
 #Loisirs {
-    margin-bottom: 6vh !important;
+    margin-bottom: 6.8vh !important;
     margin-top: 3vh;
 }
 
