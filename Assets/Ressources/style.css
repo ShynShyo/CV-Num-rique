@@ -40,6 +40,11 @@ header {
     margin-top: 8vh;
 }
 
+#phoneNumber {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 #contact i {
     margin-right: 2vh;
     color: #9A1313;
