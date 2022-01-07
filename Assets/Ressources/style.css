@@ -45,6 +45,11 @@ header {
     color: #ffffff;
 }
 
+#emailTO {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 #contact i {
     margin-right: 2vh;
     color: #9A1313;
