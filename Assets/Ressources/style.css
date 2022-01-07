@@ -159,6 +159,7 @@ main {
 
 .progress-bar {
     background-color: #9A1313 !important;
+    border: none;
 }
 
 #socialSkills {
