@@ -11,6 +11,9 @@
 body {
     background-image: url("../../Assets/Ressources/gradient-purple-hexagonal-background/5335415.jpg");
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #ffffff;
     font-family: "Kanit-Regular";
     width: 100%;
@@ -45,6 +48,7 @@ header {
     box-shadow: #0a0e2c 10px 5px 7px;
     position: relative;
     animation: topMove;
+    text-shadow: #0a0e2c 7px 4px 5px;
 }
 
 @keyframes topMove {
@@ -97,16 +101,22 @@ header h1 {
     margin-left: 10vh;
     margin-top: 4vh;
     margin-bottom: 0;
+    text-shadow: #0a0e2c 10px 6px 7px;
+
 }
 
 header h2 {
     font-size: 9vw;
     margin-left: 10vh;
+    text-shadow: #0a0e2c 10px 6px 7px;
+
 }
 
 #profilPicture {
     border-radius: 50%;
     border: #5663CC solid 5px;
+    filter: drop-shadow(15px 10px 4px #0a0e2c);
+
     /* width: 85vh;
     height: 35vh; */
 }
@@ -115,18 +125,24 @@ header h2 {
     width: 7vh;
     height: 7vh;
     margin: 2vh;
+    filter: drop-shadow(10px 10px 4px #0a0e2c);
+
 }
 
 #facebookIcon {
     width: 7vh;
     height: 7vh;
     margin: 2vh;
+    filter: drop-shadow(10px 10px 4px #0a0e2c);
+
 }
 
 #linkedinIcon {
     width: 7vh;
     height: 7vh;
     margin: 2vh;
+    filter: drop-shadow(10px 10px 4px #0a0e2c);
+
 }
 
 
@@ -143,6 +159,8 @@ aside {
     font-size: 7vw;
     box-shadow: #0a0e2c 10px 5px 7px;
     height: 100%;
+    text-shadow: #0a0e2c 10px 7px 8px;
+
 }
 
 #leftSide {
@@ -192,18 +210,23 @@ main {
     width: 7vh;
     height: 7vh;
     margin-right: 3vh;
+   filter: drop-shadow(10px 10px 4px #0a0e2c);
 }
 
 #cssIcon {
     width: 7vh;
     height: 7vh;
     margin-right: 3vh;
+    filter: drop-shadow(10px 10px 4px #0a0e2c);
+
 }
 
 #bootstrapIcon {
     width: 7.3vh;
     height: 7vh;
     margin-right: 3vh;
+    filter: drop-shadow(10px 10px 4px #0a0e2c);
+
 }
 
 #htmlProgress {
@@ -214,6 +237,8 @@ main {
     border-radius: 15px;
     background-color: transparent !important;
     margin-top: 2vh;
+    filter: drop-shadow(10px 10px 4px #0a0e2c);
+
 }
 
 
@@ -233,6 +258,8 @@ main {
     border-radius: 15px;
     background-color: transparent !important;
     margin-top: 2vh;
+    filter: drop-shadow(10px 10px 4px #0a0e2c);
+
 }
 
 
@@ -252,6 +279,8 @@ main {
     border-radius: 15px;
     background-color: transparent !important;
     margin-top: 2vh;
+    filter: drop-shadow(10px 10px 4px #0a0e2c);
+
 }
 
 
@@ -275,6 +304,8 @@ main {
     height: 7vh;
     margin-right: 3vh;
     margin-top: -2vh;
+    filter: drop-shadow(10px 10px 4px #0a0e2c);
+
 }
 
 #computerIcon {
@@ -282,6 +313,8 @@ main {
     height: 7vh;
     margin-right: 3vh;
     margin-top: -2vh;
+    filter: drop-shadow(10px 10px 4px #0a0e2c);
+
 }
 
 #curiosityIcon {
@@ -289,6 +322,8 @@ main {
     height: 7vh;
     margin-right: 3vh;
     margin-top: -2vh;
+    filter: drop-shadow(10px 10px 4px #0a0e2c);
+
 }
 
 /*----------------------------------------------Right Aside----------------------------------------------*/
@@ -328,6 +363,8 @@ p {
 #purpleArrow {
     width: 7.3vh;
     height: 6.3vh;
+    filter: drop-shadow(10px 10px 4px #0a0e2c);
+
 }
 
 #formations {
@@ -345,6 +382,8 @@ p {
     width: 8vh;
     height: 8vh;
     margin-left: 4vh;
+    filter: drop-shadow(15px 10px 4px #0a0e2c);
+
 }
 
 @media screen and (min-width: 750px) {
