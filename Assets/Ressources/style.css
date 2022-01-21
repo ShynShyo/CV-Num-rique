@@ -13,7 +13,25 @@ body {
     background-size: cover;
     color: #ffffff;
     font-family: "Kanit-Regular";
+    width: 100%;
+    background-color: #0f1544b7
 
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent !important;
+    opacity: 0;
+    border-radius: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #0f1544b7;
+    outline: #5663CC solid 1px;
+    border-radius: 15px;
 }
 
 /*------------------------------------------Header-----------------------------------------------*/
