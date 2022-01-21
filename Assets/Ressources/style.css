@@ -25,6 +25,18 @@ header {
     font-size: 7.5vw;
     font-family: "Kanit-Regular";
     box-shadow: #0a0e2c 10px 5px 7px;
+    position: relative;
+    animation: topMove;
+}
+
+@keyframes topMove {
+    from {
+        top: -1000px
+    }
+
+    to {
+        top: 0px
+    }
 
 }
 
@@ -53,6 +65,12 @@ header {
 #contact i {
     margin-right: 2vh;
     color: #9A1313;
+}
+
+#gitHub {
+    color: #ffffff;
+    font-size: 1.4vw;
+    text-decoration: none;
 }
 
 header h1 {
@@ -109,6 +127,27 @@ aside {
     height: 100%;
 }
 
+#leftSide {
+    background-color: #0f1544a2;
+    color: #ffffff;
+    font-family: "Kanit-Regular";
+    box-shadow: #0a0e2c 10px 5px 7px;
+    height: 100%;
+    animation: leftMove 3s;
+    position: relative;
+}
+
+
+@keyframes leftMove {
+    from {
+        left: -1000px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
 
 h3 {
     color: #9A1313;
@@ -149,19 +188,65 @@ main {
     margin-right: 3vh;
 }
 
-.progress {
+#htmlProgress {
+    height: 4vh;
     width: 40vh;
     margin-bottom: 7vh;
     border: #9A1313 solid 3px;
+    border-radius: 15px;
     background-color: transparent !important;
     margin-top: 2vh;
 }
 
 
-.progress-bar {
+#htmlProgressBar {
+    height: 3.5vh;
+    width: 1%;
     background-color: #9A1313 !important;
     border: none;
+    border-radius: 10px;
 }
+
+#cssProgress {
+    height: 4vh;
+    width: 40vh;
+    margin-bottom: 7vh;
+    border: #9A1313 solid 3px;
+    border-radius: 15px;
+    background-color: transparent !important;
+    margin-top: 2vh;
+}
+
+
+#cssProgressBar {
+    height: 3.5vh;
+    width: 1%;
+    background-color: #9A1313 !important;
+    border: none;
+    border-radius: 10px;
+}
+
+#bsProgress {
+    height: 4vh;
+    width: 40vh;
+    margin-bottom: 7vh;
+    border: #9A1313 solid 3px;
+    border-radius: 15px;
+    background-color: transparent !important;
+    margin-top: 2vh;
+}
+
+
+#bsProgressBar {
+    height: 3.5vh;
+    width: 1%;
+    background-color: #9A1313 !important;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
 
 #socialSkills {
     margin-bottom: 4vh;
@@ -189,6 +274,28 @@ main {
 }
 
 /*----------------------------------------------Right Aside----------------------------------------------*/
+
+#rightSide {
+    background-color: #0f1544a2;
+    color: #ffffff;
+    font-family: "Kanit-Regular";
+    box-shadow: #0a0e2c 10px 5px 7px;
+    height: 100%;
+    animation: rightMove 2s;
+    position: relative;
+
+}
+
+@keyframes rightMove {
+    from {
+        right: -1000px;
+    }
+
+    to {
+        right: 0px;
+    }
+}
+
 
 #Experience {
     margin-top: 8vh;
